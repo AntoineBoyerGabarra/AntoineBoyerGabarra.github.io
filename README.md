@@ -225,9 +225,9 @@
           <a class="btn btn-secondary" href="papers/Web3D2025.pdf" download>
             Download Paper
           </a>
-          <a class="btn btn-secondary" href="bibtex/Web3D2025.bib" target="_blank">
+          <button class="btn btn-secondary" onclick="openBibtex('bibtex/Web3D2025.bib')">
             BibTeX
-          </a>
+          </button>
         </div>
       </div>
     </section>
@@ -247,5 +247,31 @@
     © 2026 Antoine Boyer Gabarra • Academic Portfolio
   </footer>
 
+<div id="bibtexModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); align-items:center; justify-content:center;">
+    <div style="background:white; padding:20px; border-radius:12px; max-width:600px; width:90%; position:relative;">
+      <h3>BibTeX</h3>
+      <pre id="bibtexContent" style="white-space:pre-wrap; background:#f3f4f6; padding:10px; border-radius:8px;"></pre>
+      <button onclick="closeBibtex()" style="margin-top:10px; padding:8px 12px; border:none; background:#2563eb; color:white; border-radius:8px; cursor:pointer;">Close</button>
+    </div>
+  </div>
+
+  <script>
+    async function openBibtex(name) {
+      const res = await fetch(name);
+      const text = await res.text();
+      document.getElementById('bibtexContent').textContent = text;
+      document.getElementById('bibtexModal').style.display = 'flex';
+    }
+    function closeBibtex() {
+      document.getElementById('bibtexModal').style.display = 'none';
+    }
+    window.onclick = function(event) {
+      const modal = document.getElementById('bibtexModal');
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    }
+  </script>
+  
 </body>
 </html>
