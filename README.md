@@ -170,7 +170,7 @@
       <h2>About</h2>
       <div class="card">
         <p>
-          Welcome to my academic portfolio. I currently hold a master's degree in Computer Sciences from EPFL. My research interests include computer vision, 3D/4D reconstruction, and machine/deep learning.
+          Welcome to my academic portfolio. I currently hold a master's degree in Computer Sciences from EPFL. My research interests include computer vision, 3D/4D reconstruction, deep learning and robotics.
         </p>
       </div>
     </section>
@@ -180,15 +180,15 @@
 
       <div class="card">
         <div class="publication-title">
-          Thesis Title Goes Here
+          Depth assisted wide baseline stereo for human novel view synthesis via gaussian splatting
         </div>
 
         <div class="meta">
-          Master's Thesis • 2026 • University Name
+          Master's Thesis • 2025 • EPFL
         </div>
 
         <p>
-          Short abstract of your thesis. Explain the research problem, methodology, and contributions in a concise paragraph.
+          This thesis investigates the problem of novel view synthesis from extremely sparse visual input, with the objective of reconstructing coherent 3D scenes from as few as two images. Existing 3D reconstruction and rendering methods typically rely on dense multi-view observations and often struggle under sparse-view conditions due to geometric ambiguity and insufficient constraints. To address this limitation, the work explores a learning-based approach built upon Gaussian Splatting representations combined with learned priors to infer plausible geometry and appearance while maintaining cross-view consistency. The methodology focuses on integrating geometric reasoning with data-driven regularization to improve robustness in under-constrained settings. The main contribution of this work is the study of sparse-view reconstruction through structured priors and efficient scene representations, highlighting how representation design and prior knowledge can improve generalization and stability in novel view synthesis.
         </p>
 
         <div class="btn-group">
@@ -215,7 +215,7 @@
         </div>
 
         <p>
-          Brief summary of the publication and its contributions.
+          This work addresses the problem of reconstructing high-fidelity and animatable 3D human representations from limited multi-view observations. Existing approaches often face a trade-off between visual realism and geometric consistency, particularly for deformable human subjects where motion and appearance variability introduce additional complexity. The proposed approach explores how geometric structure and learning-based modeling can be combined to produce controllable and coherent digital humans while preserving rendering quality. The methodology relies on integrating geometric constraints with neural scene representations to better capture both structural consistency and appearance details. The main contribution of this work is the investigation of representations that improve the balance between fidelity, controllability, and robustness for human-centered 3D reconstruction, resulting in a publication at ACM Web3D.
         </p>
 
         <div class="btn-group">
