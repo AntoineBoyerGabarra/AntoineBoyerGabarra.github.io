@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -247,7 +248,7 @@
     © 2026 Antoine Boyer Gabarra • Academic Portfolio
   </footer>
 
-<div id="bibtexModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); width:500px; max-width:90vw; background:white; padding:20px; border-radius:12px; box-shadow:0 10px 30px rgba(0,0,0,0.2); z-index:1000; max-height:70vh; overflow:auto;">
+<div id="bibtexModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); align-items:center; justify-content:center;">
     <div style="background:white; padding:20px; border-radius:12px; max-width:600px; width:90%; position:relative;">
       <h3>BibTeX</h3>
       <pre id="bibtexContent" style="white-space:pre-wrap; background:#f3f4f6; padding:10px; border-radius:8px;"></pre>
