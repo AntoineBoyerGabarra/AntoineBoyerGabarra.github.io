@@ -226,12 +226,10 @@
           <a class="btn btn-secondary" href="papers/Web3D2025.pdf" download>
             Download Paper
           </a>
-          <a class="btn btn-secondary" href="#">BibTeX</a>
+          <a class="btn btn-secondary" href="bibtex/Web3D2025.bib" target="_blank">
+            BibTeX
+          </a>
         </div>
-
-        <a class="btn btn-secondary" href="bibtex/Web3D2025.bib" target="_blank">
-          BibTeX
-        </a>
       </div>
     </section>
 
