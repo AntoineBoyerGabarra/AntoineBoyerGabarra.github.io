@@ -154,8 +154,8 @@
 <body>
 
   <header>
-    <h1>Your Name</h1>
-    <p>Master's Student • Researcher • Engineer</p>
+    <h1>Antoine Boyer Gabarra</h1>
+    <p> Computer Sciences Engineer</p>
 
     <nav>
       <a href="#about">About</a>
@@ -171,7 +171,7 @@
       <h2>About</h2>
       <div class="card">
         <p>
-          Welcome to my academic portfolio. I am currently pursuing my master's degree in [Your Field] at [University Name]. My research interests include machine learning, computer vision, distributed systems, and scientific computing.
+          Welcome to my academic portfolio. I currently hold a master's degree in Computer Sciences from EPFL. My research interests include computer vision, 3D/4D reconstruction, and machine/deep learning.
         </p>
       </div>
     </section>
@@ -193,8 +193,12 @@
         </p>
 
         <div class="btn-group">
-          <a class="btn btn-primary" href="#">Read Thesis</a>
-          <a class="btn btn-secondary" href="#">Source Code</a>
+          <a class="btn btn-primary" href="thesis/master_thesis.pdf" target="_blank">
+            Read Thesis
+          </a>
+          <a class="btn btn-secondary" href="thesis/master_thesis.pdf" download>
+            Download Thesis
+          </a>
         </div>
       </div>
     </section>
@@ -204,11 +208,11 @@
 
       <div class="card">
         <div class="publication-title">
-          Publication Title One
+          Geometry-aware 3D Gaussian Model for View-Dependent Rendering of 3D Morphable Models
         </div>
 
         <div class="meta">
-          Journal / Conference • 2026
+          Web3D • 2025
         </div>
 
         <p>
@@ -216,28 +220,18 @@
         </p>
 
         <div class="btn-group">
-          <a class="btn btn-primary" href="#">Paper</a>
+          <a class="btn btn-primary" href="papers/Web3D2025.pdf" target="_blank">
+            Read Paper
+          </a>
+          <a class="btn btn-secondary" href="papers/Web3D2025.pdf" download>
+            Download Paper
+          </a>
           <a class="btn btn-secondary" href="#">BibTeX</a>
         </div>
-      </div>
 
-      <div class="card">
-        <div class="publication-title">
-          Publication Title Two
-        </div>
-
-        <div class="meta">
-          Journal / Conference • 2025
-        </div>
-
-        <p>
-          Brief summary of the publication and its contributions.
-        </p>
-
-        <div class="btn-group">
-          <a class="btn btn-primary" href="#">Paper</a>
-          <a class="btn btn-secondary" href="#">Slides</a>
-        </div>
+        <a class="btn btn-secondary" href="bibtex/Web3D2025.bib" target="_blank">
+          BibTeX
+        </a>
       </div>
     </section>
 
@@ -245,16 +239,15 @@
       <h2>Contact</h2>
 
       <div class="card">
-        <p><strong>Email:</strong> your.email@example.com</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com">linkedin.com/in/yourprofile</a></p>
+        <p><strong>Email:</strong> antoine.boyer-gabarra@outlook.com</p>
+        <p><strong>Phone:</strong> +33676578348</p>
       </div>
     </section>
 
   </div>
 
   <footer>
-    © 2025 Test • Academic Portfolio
+    © 2026 Antoine Boyer Gabarra • Academic Portfolio
   </footer>
 
 </body>
